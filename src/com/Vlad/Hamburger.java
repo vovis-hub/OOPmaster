@@ -15,7 +15,8 @@ public class Hamburger {
     }
 
     private void setPrice(double price) {
-        this.price = Math.round(price);
+
+        this.price = price;
     }
 
     public Hamburger() {
