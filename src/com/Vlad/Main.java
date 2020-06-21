@@ -12,8 +12,6 @@ public class Main {
         ham.getTotal();
     }
 
-
-
     public static Hamburger chooseHamburger() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, choose a burger:");
