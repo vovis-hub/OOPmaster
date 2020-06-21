@@ -32,35 +32,35 @@ public class Healthy extends Hamburger{
             switch (x) {
                 case 1:
                     add = "lettuce";
-                    this.price += 2.00;
+                    price += 2.00;
                     break;
                 case 2:
                     add = "tomato";
-                    this.price += 4.00;
+                    price += 4.00;
                     break;
                 case 3:
                     add = "onion";
-                    this.price += 0.75;
+                    price += 0.75;
                     break;
                 case 4:
                     add = "ketchup";
-                    this.price += 0.50;
+                    price += 0.50;
                     break;
                 case 5:
                     add = "greens";
-                    this.price += 3.00;
+                    price += 3.00;
                     break;
                 case 6:
                     add = "organic beats";
-                    this.price += 2.50;
+                    price += 2.50;
                     break;
                 case 7:
                     add = "nothing";
-                    this.price += 0.00;
+                    price += 0.00;
                     break;
                 default:
                     add = "invalid order";
-                    this.price += 0.00;
+                    price += 0.00;
             }
             System.out.println("Your addition #" + i + " is " + add);
             switch (i) {
