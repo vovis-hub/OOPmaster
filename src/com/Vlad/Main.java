@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hi, welcome to Bill's Burgers");
         Hamburger ham = chooseHamburger();
+        System.out.println(ham.getPrice());
         ham.orderAdditions();
         ham.getTotal();
     }

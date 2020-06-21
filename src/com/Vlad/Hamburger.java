@@ -27,7 +27,8 @@ public class Hamburger {
         this.price = price;
     }
 
-    public Hamburger(String add1, String add2, double price, String name) {
+    public Hamburger(String bread, String add1, String add2, double price, String name) {
+        this.bread = bread;
         this.add1 = add1;
         this.add2 = add2;
         this.price = price;
@@ -50,7 +51,7 @@ public class Hamburger {
         this.name = "Bill's Regular";
     }
 
-    private String getBread() {
+    String getBread() {
         return bread;
     }
 
@@ -142,7 +143,7 @@ public class Hamburger {
     }
 
     public void getTotal() {
-        System.out.println("You ordered a " + getName() + " with:");
+        System.out.println("You ordered a " + getName() + " on a "+ getBread() + " with:");
         System.out.println(getAdd1());
         System.out.println(getAdd2());
         System.out.println(getAdd3());

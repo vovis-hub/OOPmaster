@@ -8,7 +8,7 @@ public class Healthy extends Hamburger{
    private String add6;
 
     public Healthy() {
-        super("Brown Rye", "Healthy Burger", 22.50);
+        super("Brown Rye roll", "Healthy Burger", 22.00);
         this.add5 = "";
         this.add6 = "";
     }
@@ -77,7 +77,7 @@ public class Healthy extends Hamburger{
 
     @Override
     public void getTotal() {
-        System.out.println("You ordered a " + getName() + " with:");
+        System.out.println("You ordered a " + getName() + " on a "+ getBread() + " with:");
         System.out.println(getAdd1());
         System.out.println(getAdd2());
         System.out.println(getAdd3());
